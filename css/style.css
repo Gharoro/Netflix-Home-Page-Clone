@@ -1,0 +1,154 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.top-banner {
+    background-image: url('../images//netflix-banner.jpg');
+    height: 100vh;
+    margin: 0;
+}
+.darker {
+    background-color: rgba(0,0,0, 0.6);
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 0;
+}
+.signin-btn {
+    float:  right;
+    background-color: #e50914;
+    padding: 10px 20px;
+    margin: 40px;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: 500;
+}
+
+.clear{
+    clear: both;
+}
+.logo {
+    float: left;
+    margin: 20px 40px;
+    width: 180px;
+}
+.center {
+    text-align: center;
+    color: white;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 60vh;
+}
+h1 {
+    font-size: 50px;
+}
+h3 {
+    font-size: 30px;
+}
+p {
+    font-size: 23px;
+}
+.main-try-btn {
+    background-color: #e50914;
+    color: white;
+    padding: 20px 70px;
+    font-size: 30px;
+    border: none;
+}
+.try-btn {
+    background-color: black;
+    color: white;
+    padding: 10px 60px;
+    font-size: 20px;
+}
+.section{
+    border-top: 7px solid #303030;
+    display: flex;
+    height: 70vh;
+    background-color: black;
+    color: white;
+}
+.left-side{
+    flex: 1;
+    padding: 70px 70px;
+}
+.right-side{
+    flex: 1;
+    padding: 70px 70px;
+}
+#tv {
+    height: 45vh;
+}
+
+.faq {
+    padding: 70px 70px;
+    border-top: 7px solid #303030;
+    height: 90vh;
+    background-color: black;
+    color: white;
+    text-align: center;
+}
+.question {
+    background-color:#303030;
+    margin-left: 220px;
+    margin-right: 220px;
+    margin-bottom: 3px;
+    padding: 20px;
+    height: 30px;
+    display: flex;
+}
+
+.question a.first {
+    text-decoration: none;
+    color: white;
+    font-size: 25px;
+    flex: 1;
+    text-align: left;
+}
+.question a.plus {
+    font-size: 30px;
+    text-decoration: none;
+    color: white;
+}
+.faq button {
+    margin: 50px;
+}
+.footer {
+    padding: 70px 10%;
+    border-top: 7px solid #303030;
+    border-bottom: 7px solid #303030;
+    height: 30vh;
+    background-color: black;
+    color: white;
+}
+.footer p a {
+    color: #a6a6a6;
+    font-size: 15px;
+    margin-left: 100px;
+    margin-bottom: 20px;
+    text-decoration: none;
+}
+.footer p a:hover {
+    text-decoration: underline;
+}
+ul.main-list{
+    display: flex;
+}
+ul  li {
+    flex: 1;
+    list-style: none;
+    padding: 0 15px;
+    margin-bottom: 10px;
+}
+ul li a {
+    color: #a6a6a6;
+}
